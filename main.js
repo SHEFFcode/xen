@@ -5,7 +5,7 @@ $(document).ready(function () {
   });
 });
 
-//Menu Bar Darkening
+//Menu Bar Darkening functionality
 $(window).scroll(function(){
   if($('.navbar').offset().top > 50) {
     $('.navbar-fixed-top').addClass('top-nav-collapse');
