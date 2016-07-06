@@ -7,7 +7,7 @@
   <title>Flashbox Networks</title>
   <!-- Link Google Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic|Montserrat:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="font-awesome.min.css">
   <!-- Link to my CSS file.  -->
   <link href="main.css" rel="stylesheet">
 </head>
@@ -30,7 +30,6 @@
           <li class="hidden"><a href="#page-top"></a></li>
           <li class="page-scroll"><a href="#why">Why us?</a></li>
           <li class="page-scroll"><a href="#who">Who are we?</a></li>
-          <li class="page-scroll"><a href="#clients">DDoS</a></li>
           <li class="page-scroll"><a href="#contact">Contact</a></li>
         </ul>
       </div><!--/.nav-collapse -->
@@ -42,7 +41,7 @@
       <div class="container">
        <div class="row">
          <div class="col-md-8 col-md-offset-2">
-           <img style="width: 600px;" src="img/white_logo_transparent_background.png">
+           <img id="flashbox-logo" src="img/white_logo_transparent_background.png">
          </div> <!-- /.col-md-8 -->
        </div> <!-- /.row -->
      </div> <!-- /.container -->
@@ -50,8 +49,12 @@
  </section> <!-- /.intro -->
 
  <section id="why" class="container content-section">
-  <h2 class="text-center">Why choose us?</h2>
-  <p class="text-center">Here are a few reasons to choose <strong>New Bar Thursday</strong> for all of your hangout needs.</p>
+   <div class="row">
+     <div class="col-md-12">
+       <h2 class="text-center">Why choose us?</h2>
+       <p class="text-center">Here are a few reasons to choose <strong>Flashbox Networks</strong>as your DDoS consultants.</p>
+     </div>
+   </div>
   <br>
   <div class="row">
    <div class="col-md-4">
@@ -61,7 +64,7 @@
        </div> <!-- /.icon -->
        <div class="icon-content">
          <h3>Professional</h3>
-         <p>We love bars, we know bars, we live bars.</p>
+         <p>We care about our clients and we strive to provide top of the line customer serivce</p>
        </div> <!-- /.icon-content -->
      </div> <!-- /.block -->
    </div> <!-- /.col-md-4 -->
@@ -71,41 +74,41 @@
          <i class="fa fa-money fa-5x"></i>
        </div> <!-- /.icon -->
        <div class="icon-content">
-         <h3>Low Cost</h3>
-         <p>New bar thursday guarantees the lowest price and best deals. Every week.</p>
+         <h3>Value</h3>
+         <p>Flashbox Networks provides industry leading advice at a reasonable price</p>
        </div> <!-- /.icon-content -->
      </div> <!-- /.block -->
    </div> <!-- /.col-md-4 -->
    <div class="col-md-4">
      <div class="block block-icon-left">
        <div class="icon">
-         <i class="fa fa-beer fa-5x"></i>
+         <i class="fa fa-laptop fa-5x"></i>
        </div> <!-- /.icon -->
        <div class="icon-content">
-         <h3>Beer</h3>
-         <p>We know beer, and every bar will have a wide selection of it. Wine can come chill too.</p>
+         <h3>Know-How</h3>
+         <p>We bring over 30 years of experience in online threat mitigation</p>
        </div> <!-- /.icon-content -->
      </div> <!-- /.block -->
    </div> <!-- /.col-md-4 -->
    <div class="col-md-4">
      <div class="block block-icon-left">
        <div class="icon">
-         <i class="fa fa-users fa-5x"></i>
+         <i class="fa fa-hourglass fa-5x"></i>
        </div> <!-- /.icon -->
        <div class="icon-content">
-         <h3>Large Community</h3>
-         <p>Our community of beer drinkers and bar enthusiasts is strong and diverse. Come out and see for yourself.</p>
+         <h3>Responsiveness</h3>
+         <p>We don't make our customers wait in line, we respond to any attack on our customers as an attack on ourselves.</p>
        </div> <!-- /.icon-content -->
      </div> <!-- /.block -->
    </div> <!-- /.col-md-4 -->
    <div class="col-md-4">
      <div class="block block-icon-left">
        <div class="icon">
-         <i class="fa fa-book fa-5x"></i>
+         <i class="fa fa-hand-peace-o  fa-5x"></i>
        </div> <!-- /.icon -->
        <div class="icon-content">
-         <h3>Online Resources</h3>
-         <p>We use twitter and facebook to let you know where to come out.</p>
+         <h3>Peace of Mind</h3>
+         <p>With flashbox on your side, you can have peace of mind that your business is safe from online threats.</p>
        </div> <!-- /.icon-content -->
      </div> <!-- /.block -->
    </div> <!-- /.col-md-4 -->
@@ -116,40 +119,18 @@
   <div class="who-section">
     <div class="container">
      <h2>Who are we?</h2>
-     <p class="lead">We are a small group of dedicated bar goers who love what we do and are ready to try new and exciting bar concepts.</p>
-     <a href="#contact" class="btn btn-default btn-lg">Contact Us</a>
+     <p class="lead">We are a small group of web sucurity professionals dedicated to keeping the bad guys out and the good guys up.</p>
+     <a href="#contact" class="btn btn-success btn-lg">Contact Us</a>
    </div> <!-- /.container -->
  </div> <!-- /.who-section -->
 </section> <!-- /#who -->
 
-<section id="clients" class="content-section text-center">
-  <div class="container">
-    <h2>Recent Bars</h2>
-    <img height="166px" src="img/char.png">
-    <img src="img/woody.jpg">
-    <img height="166px" src="img/hopsmith.png">
-    <img height="166px" src="img/muni.png">
-    <img height="166px" src="img/tdad.png">
-  </div> <!-- /.container -->
-</selection> <!-- /#clients -->
-
-<section id="contact" class="content-section text-center">
+<footer class="container">
   <div class="row">
-   <div class="col-md-8 col-md-offset-2">
-    <h2>Contact New Bar Thursday</h2>
-    <p>Feel free to shoot us an email any time for any reason. We like to hear feedback - the good and the bad.</p>
-    <p>contact@nbt.com</p>
-    <ul class="list-inline banner-social-buttons">
-      <li><a href="http://www.twitter.com" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i><span class="network-name">Twitter</span></a></li>
-      <li><a href="http://www.facebook.com" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i><span class="network-name">Facebook</span></a></li>
-      <li><a href="http://plus.google.com" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i><span class="network-name">Google Plus </span></a></li>
-    </ul>
-  </div> <!-- /.col-md-8 -->
-</div> <!-- /.row -->
-</section> <!-- /#contact -->
-
-<footer>
-  <p>SHEFFcode &copy; 2015. All rights reserved.</p>
+    <div class="col-md-12">
+      <p>FlashboxNetworks &copy; 2016. All rights reserved.</p>
+    </div>
+  </div>
 </footer>
 
 

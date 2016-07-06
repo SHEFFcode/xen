@@ -8887,8 +8887,11 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: #f4f4f4;
-  background: url('img/background.jpg') no-repeat bottom center scroll;
-  background-color: #333333;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('img/background.png') no-repeat bottom center scroll;
+  /*background-color: #333333;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -8945,7 +8948,6 @@ a:focus {
   width: 100%;
   padding: 100px 0;
   color: #f4f4f4;
-  background: url('../img/downloads-bg.jpg') no-repeat center center scroll;
   background-color: #333333;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -8989,4 +8991,14 @@ footer {
 }
 #who {
   padding-bottom: 0 !important;
+}
+
+#flashbox-logo {
+  width: 600px;
+}
+
+@media (max-width: 768px) {
+  #flashbox-logo {
+    width: 200px;
+  }
 }
